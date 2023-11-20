@@ -14,13 +14,33 @@ Yoimiya from Genshin Impact
 2. In your HTML, have a link tag that references to ```./node_modules/yoicards/css/index.css```
 3. Enjoy!
 
-### Different Card Types
+### Different Card Types (All visible on example.html)
 1. Basic
+
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/91fa7621-9892-443c-b9c0-055ffd388d0e)
+
 2. Pokemon
+
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/81cb07fd-0c0a-4fea-b11a-caa88b8b0253)
+
 3. Horizontal
+
+  ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/e992e306-9f79-4e05-a936-fde89e544005)
+
 4. Jumbotron
+
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/633a56d0-e0b6-4087-93c4-f45e8abc43b4)
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/40158700-b331-4f15-a002-3958d0e316bc)
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/a183c357-ab4f-4865-9ba8-83645df2c0a9)
+
 5. Baseball
+
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/c5515b42-ffc6-44ff-b894-9a723bc290e7)
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/4f5c9ffc-a6a9-4502-91f9-d8ba1233666d)
+
 6. Avatar
+
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/d29dfce4-997c-48f8-a1dc-c606898e5757)
 
 ## How to contribute
 1. Clone this repository
