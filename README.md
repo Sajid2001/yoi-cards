@@ -12,8 +12,8 @@ coming soon...
 
 ## How to contribute
 1. Clone this repository
-2. Inside the root directory, run ```npm install```
-3. Inside the root directory, run ```gulp```
+2. Inside the project directory, run ```npm install```
+3. Inside the project directory, run ```gulp```
 4. Open the ```example.html``` file in the live server to test the library
 
 ## Plans for the future
