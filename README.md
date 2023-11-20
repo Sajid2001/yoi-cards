@@ -1,5 +1,5 @@
 # YoiCards
-## A lightweight CSS library for quickly building card components
+## An easy-to-use CSS library for quickly building responsive card components
 
 ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/d43832ef-fc29-4960-90f3-d4d35f4686d4)
 Yoimiya from Genshin Impact
@@ -9,7 +9,18 @@ Yoimiya from Genshin Impact
 * Gulp
 
 ## How to use
-coming soon...
+
+1. Run the command ```npm install yoicards@latest```
+2. In your HTML, have a link tag that references to ```./node_modules/yoicards/css/index.css```
+3. Enjoy!
+
+### Different Card Types
+1. Basic
+2. Pokemon
+3. Horizontal
+4. Jumbotron
+5. Baseball
+6. Avatar
 
 ## How to contribute
 1. Clone this repository
