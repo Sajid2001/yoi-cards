@@ -1,6 +1,6 @@
 {
   "name": "yoicards",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy-to-use CSS library that allows you to quickly build out different types of card components",
   "main": "gulpfile.js",
   "scripts": {
