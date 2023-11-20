@@ -2,7 +2,7 @@
 ## A lightweight CSS library for quickly building card components
 
 ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/d43832ef-fc29-4960-90f3-d4d35f4686d4)
-<figcaption align = "center">Yoimiya from Genshin Impact</figcaption>
+Yoimiya from Genshin Impact
 
 ## Tools Used
 * SASS
