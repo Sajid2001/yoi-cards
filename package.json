@@ -1,5 +1,5 @@
 {
-  "name": "yoi-cards",
+  "name": "yoicards",
   "version": "1.0.0",
   "description": "Lightweight CSS library that allows you to quickly build out different types of card components",
   "main": "gulpfile.js",
