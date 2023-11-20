@@ -8,7 +8,7 @@
 * Gulp
 
 ## How to use
-...coming soon
+coming soon...
 
 ## How to contribute
 1. Clone this repository
