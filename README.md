@@ -35,7 +35,7 @@ Yoimiya from Genshin Impact
 
 5. Baseball
 
-   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/c5515b42-ffc6-44ff-b894-9a723bc290e7)
+   ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/a3f0f2c4-f915-4d89-b504-ebd5cd2e1886)
    ![image](https://github.com/Sajid2001/yoi-cards/assets/60523377/4f5c9ffc-a6a9-4502-91f9-d8ba1233666d)
 
 6. Avatar
