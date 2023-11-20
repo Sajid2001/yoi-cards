@@ -7,11 +7,7 @@
     "build": "gulp"
   },
   "files": [
-    "sass",
-    "cards",
-    "gulpfile.js",
-    "css",
-    "README.md"
+    "css/index.css"
   ],
   "repository": {
     "type": "git",
