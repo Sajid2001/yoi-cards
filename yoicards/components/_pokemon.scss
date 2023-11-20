@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+.pokemon{
+    @include card(2, 5);
+    padding: $base-padding;
+    .pokemon-title{
+        @extend %card-title;
+    }
+
+    .pokemon-image{
+        @extend %card-img;
+        border-radius: math.div($base-border-radius,5);
+    }
+
+    .pokemon-body{
+        @extend %card-body;
+        padding: $base-padding;
+    }
+
+    .pokemon-footer{
+        @extend %card-footer;
+    }
+}

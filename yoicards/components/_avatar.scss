@@ -1,0 +1,70 @@
+@use 'sass:math';
+
+.avatar{
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    box-shadow: $base-box-shadow;
+    flex-direction: column;
+    border-radius: math.div($base-border-radius,4);
+    text-align: center;
+
+    .avatar-banner{
+        max-height: 200px;
+        filter: brightness(70%);
+        @extend %card-img;
+        overflow: hidden;
+        border-top-left-radius: math.div($base-border-radius, 4);
+        border-top-right-radius: math.div($base-border-radius, 4);
+
+        @include max-breakpoint(600px){
+            max-height: 300px;
+        }
+    }
+    .avatar-profile {
+        max-height: 150px; // Set the max height for the profile image
+        margin-top: -75px; // Adjust as needed for spacing
+        border-radius: $base-border-radius * 4;
+        border: 4px solid white; // Add a border for styling
+        align-self: center; // Center the profile image
+        z-index: 3;
+
+        @include max-breakpoint(600px){
+            max-height: 120px;
+            margin-top: -60px
+        }
+      }
+
+    .avatar-name{
+        @extend %card-title;
+        padding: $base-padding;
+    }
+    .avatar-body{
+        @extend %card-body;
+        padding: $base-padding $base-padding * 2;
+        padding-bottom: $base-padding * 2;
+
+        @include max-breakpoint(600px){
+            font-size:small
+        }
+
+        button{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .socials{
+            a{
+                &:hover{
+                    opacity: 70%;
+                }
+            }
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: $base-margin * 2;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@use 'sass:math';
+
+%card-img{
+    object-fit: cover;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+%card-title{
+    font-size: $font-size-xl;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+}
+
+%card-body{
+    font-size: $base-font-size;
+    
+    a {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
+%card-footer{
+    padding: $base-padding;
+}
+
+%jumbo-img{
+    min-height: 500px;
+    height: 50vh;
+    border-radius: math.div($base-border-radius, 4);
+    filter: brightness(35%)
+}
+
+%jumbo-header{
+    color: white;
+    font-size: $font-size-xxl;
+    font-weight: bold;
+}
+
+%jumbo-body{
+    font-size: $font-size-md;
+    color: white;
+    a {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
+%absolute-text-center{
+    position: absolute;
+    left: 50%; // Adjust this value to center the text horizontally
+    bottom: 50%; // Adjust this value to position the text vertically
+    top: 50%;
+    z-index: 2; // Ensure the text is above the image
+    transform: translateX(-50%); // Center the text horizontally
+}
+
+%absolute-zero{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

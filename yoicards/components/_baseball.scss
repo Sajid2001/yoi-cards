@@ -1,0 +1,42 @@
+@use 'sass:math';
+
+.baseball{
+    @include hover_card;
+    .baseball-img{
+        @extend %card-img;
+    }
+    .baseball-content{
+        padding: $base-padding * 2;
+        z-index: 3;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.636);
+        backdrop-filter: blur(5px);
+        overflow-y:auto;
+        .baseball-title{
+            @extend %card-title;
+        };
+        .baseball-body{
+            @extend %card-body;
+            display: none;
+            p{
+                margin-top: 20px;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+    }
+    &:hover, &:active{
+        .baseball-content {
+            top: 0;
+            bottom: 0;
+          }
+        .baseball-body{
+            display: block;
+            gap: 20px;
+        }
+    }
+}

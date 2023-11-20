@@ -1,0 +1,96 @@
+.jumbo{
+    position: relative;
+    min-width: 300px;
+    .jumbo-img{
+        @extend %card-img;
+        @extend %jumbo-img
+    }
+    .jumbo-header-center{
+        @extend %absolute-text-center;
+        @extend %jumbo-header;
+    }
+    .jumbo-content{
+        padding: $base-padding * 4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .jumbo-header-top-left{
+            @extend %jumbo-header;
+        }
+        .jumbo-body{
+            @extend %jumbo-body;
+            @include max-breakpoint(720px){
+                font-size: medium;
+            }
+        }
+        @include max-breakpoint(720px){
+            text-align: center;
+            gap: 30px;
+        }
+    }
+    .jumbo-half-content{
+        @extend %absolute-zero;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding: $base-padding * 4;
+
+        .jumbo-header-half{
+            @extend %jumbo-header;
+            width: 50%;
+        }
+        .jumbo-body{
+            @extend %jumbo-body;
+            color: white;
+            width: 50%;
+            padding: $base-padding * 3;
+            text-align: left;
+            button{
+                margin-top: 20px;
+            }
+        }
+
+        @include max-breakpoint(720px) {
+            flex-direction: column;
+            .jumbo-header-half,
+            .jumbo-body {
+              width: 100%;
+              text-align: center;
+              padding: $base-padding * 2;
+            }
+
+            .jumbo-body{
+                font-size: medium;
+            }
+          }
+    }
+
+    .jumbo-footer{
+        padding: $base-padding * 1.25;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        color: rgb(173, 173, 173);
+        a{
+            margin-bottom: $base-margin;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        @include max-breakpoint(720px) {
+            right: 0;
+            left: 0;
+            text-align: center;
+            font-size: small;
+          }
+    }
+}

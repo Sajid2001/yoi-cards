@@ -1,0 +1,43 @@
+@use 'sass:math';
+
+.horizontal-card{
+    @include card();
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    width: 100%;
+    min-width: 300px;
+    align-items: center;
+
+    .horizontal-img{
+        @extend %card-img;
+        height: 400px;
+        width: 40%;
+        @include max-breakpoint(600px){
+            width: 100%;
+        }
+    }
+
+    .horizontal-content{
+        padding: $base-padding;
+        padding-left: $base-padding * 2;
+        width: 60%;
+        .horizontal-title{
+            @extend %card-title;
+        }
+        .horizontal-body{
+            @extend %card-body;
+        }
+        .horizontal-footer{
+            padding: $base-padding 0;
+        }
+        @include max-breakpoint(600px){
+            padding: $base-padding;
+            width: 90%;
+        }
+    }
+
+    @include max-breakpoint(600px){
+        flex-direction: column;
+    }
+}

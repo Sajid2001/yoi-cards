@@ -1,0 +1,21 @@
+@use 'sass:math';
+
+
+@mixin card($border-mult: 1, $border-radius-div: 4) {
+    max-width: 400px;
+    display: block;
+    border: $base-border-thickness * $border-mult solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius, $border-radius-div);
+}
+
+@mixin hover_card($border-radius-divide: 4){
+    min-height: 350px;
+    min-width: 275px;
+    max-height: 500px;
+    max-width: 400px;
+    position: relative;
+    color: white;
+    border-radius: math.div($base-border-radius, $border-radius-divide);
+    overflow: hidden;
+}
