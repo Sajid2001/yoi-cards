@@ -8,9 +8,9 @@
   },
   "files": [
     "sass",
-    "yoicards.css",
+    "cards",
     "gulpfile.js",
-    "yoi-dist",
+    "css",
     "README.md"
   ],
   "repository": {
